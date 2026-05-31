@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏢 Sistema de Gestión de Empleados
 
-## Getting Started
+Aplicación web para la gestión completa de empleados con CRUD, autenticación, búsqueda en tiempo real y paginación.
 
-First, run the development server:
+## 🚀 Tecnologías
+
+- **Next.js** - Framework principal
+- **React** - Biblioteca de UI
+- **Bootstrap 5** - Estilos y componentes
+- **PostgreSQL** - Base de datos
+- **SweetAlert2** - Alertas y modales
+
+## 🔐 Credenciales de Acceso
+
+| Campo | Valor |
+|-------|-------|
+| Correo | `admin@empresa.com` |
+| Contraseña | `123456` |
+
+## 📁 Estructura del Proyecto
+
+## ✨ Funcionalidades
+
+✅ Login con validación de campos  
+✅ CRUD completo de empleados  
+✅ Buscador en tiempo real  
+✅ Paginación (5 empleados por página)  
+✅ Validación de cédula (10 dígitos)  
+✅ Nombres y apellidos en mayúsculas  
+✅ Diseño responsivo  
+
+## ⚙️ Instalación
 
 ```bash
+# Clonar repositorio
+git clone https://github.com/PatricioSislema/Sistema-de-Gesti-n-de-Empleados.git
+
+# Instalar dependencias
+npm install
+
+# Configurar base de datos (PostgreSQL)
+# Editar src/lib/db.js con tus credenciales
+
+# Ejecutar proyecto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Paso 5: Guardar el archivo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Baja hasta el final de la página. En **"Commit new file"** (Confirmar nuevo archivo):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Deja el título: `Create README.md`
+- Opcional: añade descripción
+- Selecciona **"Commit directly to the master branch"**
+- Haz clic en el botón verde **"Commit new file"**
 
-## Learn More
+### Paso 6: Verificar
 
-To learn more about Next.js, take a look at the following resources:
+Recarga la página. Ahora verás el README mostrado debajo del nombre del repositorio.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Método 2: Desde tu computadora (si prefieres)
 
-## Deploy on Vercel
+Si quieres hacerlo desde VS Code o tu editor:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Crear el archivo README.md (ya debes tenerlo)
+echo "# Sistema de Gestión de Empleados" > README.md
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Agregar el contenido que te di antes
+
+# Subir a GitHub
+git add README.md
+git commit -m "Agregar README del proyecto"
+git push origin master
